@@ -1,0 +1,158 @@
+/* ========== Common CSS ========== */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Merriweather', serif;
+}
+
+/* ========== Header Section ========== */
+header{
+    background-image: url("../images/banner-img.png");
+    background-repeat: no-repeat;
+    max-width: 1320px;
+    border-radius: 16px;
+    background-position: center;
+    background-size: cover;
+    margin: 50px 140px 120px 140px;
+    fill: #070211;
+}
+
+header h4{
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+    padding-top: 127px;
+}
+
+header h1{
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    padding-bottom: 177px;
+}
+
+/* ========== Discount Section ========== */
+
+#discount h2 {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+#discount p{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    
+}
+
+#discount h3{
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+#discount img{
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 120px;
+}
+
+.img-item{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#midnight{
+    background-image: url("../images/Vectorrr.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 16px;
+    max-width: 1320px;
+    margin: 50px 140px 120px 140px;
+}
+
+#midnight h2{
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    padding-top: 126px;
+    padding-left: 126px;
+}
+
+#midnight p{
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 24px;
+    padding-left: 126px;
+    min-width: 697px;
+}
+
+#midnight button{
+    margin-top: 24px;
+    margin-left: 126px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #fff;
+    margin-bottom: 142px;
+}
+
+#place{
+    background-color: #f5d1d1;
+    background-position: center;
+    border-radius: 16px;
+    max-width: 1320px;
+    margin: 50px 140px 120px 140px;
+    padding-top: 100px;
+}
+
+#place p{
+    text-align: center;
+    margin-top: 10px;
+}
+
+#place span{
+    color: #F00;
+}
+
+#place button{
+    margin-top: 64px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #F00;
+    margin-bottom: 142px;
+    border: none;
+    color: #FFF;
+    justify-content: end;
+
+}
+
+
+
+
+
+
+
