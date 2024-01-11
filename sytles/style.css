@@ -212,12 +212,66 @@ header h1{
     font-weight: 700;
 }
 
-#new-year p{
-   
+#functional{
+    max-width: 1320px;
+    margin: 120px 140px 120px 140px;
+}
 
+.funtional-items{
+    text-align: center;
+}
+
+.funtional-items h3{
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+.funtional-items h2{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 60px;
+    font-weight: 900;
+    margin-top: 30px;
 
 }
 
+.funtional-items span{
+    color: #F00;
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.funtional-items p{
+    font-size: 12px;
+    text-align: center;
+    padding: 30px 150px;
+    line-height: 24px;
+}
+
+.functional-img{
+    display: flex;
+    margin-top: 20px;
+    position: absolute;
+    max-width: 1320px;
+}
+
+.img-func-left{
+    width: 60%;
+}
+
+.img-func-right{
+    width: 40%;
+    
+}
+
+.discount{
+    position: relative;
+    top: 100px;
+    left: 600px;
+}
 
 
 
