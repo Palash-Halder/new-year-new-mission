@@ -5,13 +5,15 @@
 }
 body{
     font-family: 'Merriweather', serif;
+    max-width: 1320px;
 }
+
 
 /* ========== Header Section ========== */
 header{
     background-image: url("../images/banner-img.png");
     background-repeat: no-repeat;
-    max-width: 1320px;
+    /* max-width: 1320px; */
     border-radius: 16px;
     background-position: center;
     background-size: cover;
@@ -111,6 +113,8 @@ header h1{
     min-width: 697px;
 }
 
+
+/* ========== Midnight Section ========== */
 #midnight button{
     margin-top: 24px;
     margin-left: 126px;
@@ -120,6 +124,7 @@ header h1{
     margin-bottom: 142px;
 }
 
+/* ========== Place Section ========== */
 #place{
     background-color: #f5d1d1;
     background-position: center;
@@ -155,6 +160,8 @@ header h1{
     margin-bottom: 50px;
 }
 
+
+/* ========== Best-Offer Section ========== */
 #best-offer {
     max-width: 1320px;
     margin: 120px 140px 120px 140px;
@@ -212,6 +219,8 @@ header h1{
     font-weight: 700;
 }
 
+
+/* ========== Functional Section ========== */
 #functional{
     max-width: 1320px;
     margin: 120px 140px 120px 140px;
@@ -264,6 +273,7 @@ header h1{
 
 .img-func-right{
     width: 40%;
+    z-index: -1;
     
 }
 
@@ -273,8 +283,147 @@ header h1{
     left: 600px;
 }
 
+.bottom-bar{
+    margin-top: 140px;
+    
+}
 
 
+/* ========== Best-Gift Section ========== */
+#best-gifts{
+    max-width: 1320px;
+    margin: 50px 140px 120px 140px;
+}
+
+#best-gifts h4{
+    color: #F00;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+#best-gifts h2{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: 16px;
+}
+
+#best-gifts p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    max-width: 640px;
+    margin-bottom: 20px;
+}
+
+
+#grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 10px;
+}
+
+/* ========== Subscribe Section ========== */
+#subscribe{
+    padding-top: 100px;
+    text-align: center;
+    width: 1320px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    margin: 50px 140px 50px 140px;
+}
+
+#subscribe h2{
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+#subscriber .subs-icon p{
+    max-width: 836px;
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 12px;
+    margin-bottom: 16px;
+
+}
+
+.form-section{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 50px;
+
+}
+
+
+.form input{
+    padding: 10px 120px;
+    margin-left: 400px;
+    border: 1px solid red; 
+}
+
+
+.btn-sub button{
+    border: 1px solid red;
+    background-color: #F00;
+    padding: 10px 30px;
+    border-radius: 0px 15px 15px 0px;
+    margin-right: 520px;
+}
+
+/* ========== Footer Section ========== */
+
+footer{
+    max-width: 1320px;
+    padding: 80px 140px 80px 140px;
+    background: #070211;
+}
+.address{
+    padding-bottom: 30px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 12px;
+}
+
+.address-phone{
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.address-phone .icon{
+    
+}
+
+
+footer hr{
+    color: 1px solid #FFF;
+}
+
+.icons{
+    padding: 20px 140px;
+    justify-content: center;
+    margin: 10px 200px;
+}
+
+.icons i{
+    justify-items: center;
+
+}
+
+.copyright{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 500;
+}
 
 
 
